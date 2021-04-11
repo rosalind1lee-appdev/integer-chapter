@@ -7,3 +7,5 @@
 #   "Wow, you were born in 1940. You're old!"
 
 p "How old are you?"
+age = gets.chomp.to_i
+p "Wow, you were born in #{2021-age}. You're old!"
